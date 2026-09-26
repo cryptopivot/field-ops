@@ -1,0 +1,16 @@
+{
+  "name": "field-ops",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Field notes for installing and servicing kiosks, ATMs, parcel lockers, and related hardware.",
+  "scripts": {
+    "lint": "markdownlint-cli2",
+    "check-links": "find . -name '*.md' -not -path './node_modules/*' -print0 | xargs -0 -n1 markdown-link-check --config .markdown-link-check.json",
+    "preview": "markserv -a 0.0.0.0 -p 8080 ."
+  },
+  "devDependencies": {
+    "markdown-link-check": "3.12.2",
+    "markdownlint-cli2": "0.14.0",
+    "markserv": "1.17.4"
+  }
+}

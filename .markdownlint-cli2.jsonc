@@ -1,0 +1,13 @@
+{
+  // Lint rules for field-ops notes. These are hand-written from the truck,
+  // so prose-hostile rules (fixed line length) are off. Structural rules stay on.
+  "config": {
+    "default": true,
+    "MD013": false,
+    "MD040": false,
+    "MD033": false,
+    "MD041": false
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules"]
+}
