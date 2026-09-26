@@ -1,0 +1,11 @@
+{
+  "name": "field-ops",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "preview",
+      "command": "npm run preview"
+    }
+  ],
+  "ports": [8080]
+}
